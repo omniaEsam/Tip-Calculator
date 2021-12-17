@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="div-one">
+            <h1>TIP CALCULATOR</h1>
+        </div>
+        <div class="container">
+            <div class="div-in1">
+                <p>How much was your bill?</p>
+                <label>$</label>
+                <input type="number" required placeholder="0" id="bill-input">
+            </div>
+            <div class="div-in2">
+            <p>How was your service?</p>
+            <select class="sel-class">
+                <option class="list-class" value=.05>Terrible - 5%</option>
+                <option class="list-class" value=.1>Bad - 10%</option>
+                <option class="list-class" value=.15>OK - 15%</option>
+                <option class="list-class" value=.2>Good - 20%</option>
+                <option class="list-class" value=.3>Outstanding - 30%</option>
+            </select>
+            </div>
+            <div class="div-in3">
+                <p>How many people are sharing the ball?</p>
+                <input type="number" required placeholder="0" id="num-people" >
+                <label>people</label>
+            </div>
+            <div class="div-result">
+                <button  class="btn">CALCULATE!</button>
+                <p class="bill-result">TIP AMOUNT</p>
+                <div class="bill-result" id="tip-result">
+                  
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
